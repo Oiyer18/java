@@ -7,7 +7,8 @@ public class Salbuespenak03 {
         Scanner sc = new Scanner(System.in);
         while(a==0){
         System.out.println("Sartu nota mesedez:");
-       try{ int nota=Integer.parseInt(sc.nextLine());
+       try{ 
+        int nota=Integer.parseInt(sc.nextLine());
         NotaKonprobatu(nota);
         if(nota<11&&nota>-1){
             a=1;

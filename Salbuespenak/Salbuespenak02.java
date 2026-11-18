@@ -4,9 +4,10 @@ import java.util.Scanner;
 public class Salbuespenak02 {
     public static void main(String[]args){
         Scanner sc = new Scanner(System.in);
-        try{
-            System.out.println("Sartu adina: ");
+        System.out.println("Sartu adina: ");
             int zenb=Integer.parseInt(sc.nextLine());
+        try{
+            
             if(zenb<0){
                 throw new IllegalArgumentException("Adina ezin da negatiboa izan");
             }
